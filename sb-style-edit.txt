@@ -1,0 +1,49 @@
+/* [ optional ] if you dont want to import my sidebery data  */
+/* copy below
+fixes website favicon size
+positions sidebery title logo
+positions tab favicon
+positions the recent deleted, history
+removes annoying audio button from top title logo
+*/
+
+.Sidebar .tool-btn > svg {
+  left: 6px; /*trash icon moved to the left*/
+}
+
+.NavigationBar .main-items {
+  top: 1px;
+	margin-bottom: 1px;
+	left: 7px;
+}
+/*remove top if nec*/
+
+.NavigationBar .nav-item .icon {
+  width: 18px;
+  height: 18px;
+}
+
+
+#root.root {--nav-btn-width: 28px;}
+.NavigationBar .nav-item .audio {
+  display: none;
+}
+
+.Tab .fav-icon {
+  left: 7px;
+  width: 18px;
+  height: 18px;
+}
+
+.Tab .title {
+  left: 10px;
+}
+
+.Tab .audio {
+  left: 32px !important;
+	fill: #FFFAA0;
+}
+
+.Tab .t-box {
+  --audio-btn-offset: calc(var(--tabs-audio-btn-width) - var(--tabs-inner-gap));
+}

@@ -1,0 +1,16 @@
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SHOW HIDE THE BOOKMARKS ON THE TOOLBAR, NOT THE TOOLBAR IT SELF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*personal toolbar is bookmark bar*/
+#PlacesToolbarItems {
+opacity: 0.01;
+-moz-transition: visibility 1s, opacity 1s ease !important;}
+	
+#navigator-toolbox:hover #PlacesToolbarItems {opacity: 1;}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+REPLACE BOOKMARK FOLDER ICON
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.bookmark-item[container=true] {
+list-style-image: url("bmarrow.png") !important;}

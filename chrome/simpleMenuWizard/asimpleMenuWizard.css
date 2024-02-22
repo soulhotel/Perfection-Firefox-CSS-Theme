@@ -1,0 +1,43 @@
+@import url(blank-context.css);      /* ...a blank area on a webpage                      */
+@import url(frame-context.css);      /* ...an iframe                                      */
+@import url(image-context.css);      /* ...an image                                       */
+@import url(input-context.css);      /* ...an input-field                                 */
+@import url(link-context.css);       /* ...a link                                         */
+@import url(main-hamburger.css);     /* Leftclick on the hamburger menu on top right      */
+@import url(media-context.css);      /* ...media like audio or html5 video                */
+@import url(main-menubar.css);       /* Leftclick on the main menubar (open with ALT key) */
+@import url(newtab-containers.css);  /* ...the plus sign to open a new tab or container   */
+@import url(select-context.css);     /* ...selected text or selected object               */
+@import url(sidebar-context.css);    /* ...items in bookmarks- or history sidebar         */
+@import url(sidebar-header.css);     /* Leftclick on the sidebar header                   */
+@import url(source-context.css);     /* ...a blank area when viewing source code          */
+@import url(tab-context.css);        /* ...a tab                                          */
+@import url(toolbar-context.css);    /* ...the toolbar or tabbar                          */
+@import url(urlbar-context.css);     /* ...the addressbar                                 */
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+So you want to colorize your right click menu?
+
+1. context menu background color
+2. context menu border color (no ugly border)
+3. text color
+4. (optional) produces a gradient background color with transparency
+5. hovered item color
+https://imgur.com/a/0tdAjv3
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+menupopup{
+  --panel-background: rgba(5, 5, 5, .95) !important;                        /*1*/
+  --panel-border-color: rgba(15, 15, 15, 1) !important;                    /*2*/
+  /*--panel-color: #F8DE7E !important;*/                                  /*3*/
+  /*--panel-background: linear-gradient(to bottom right, rgba(0, 50, 255, .9) 0%, rgba(0, 100, 255, .9) 75%, rgba(0, 0, 255, .9) 100%) !important;*/
+}                                                                     /*4^*/
+menuitem:hover{
+	background-color: #191970 !important;                          /*5*/
+}
+
+/*** Hide all inactive menu items ***/
+/* #mainPopupSet menuitem[disabled="true"][id][data-l10n-id] { display: none !important; } */
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+make context menu black, transparent, text yellow
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
