@@ -20,17 +20,15 @@ background-size: cover !important;}
   scrollbar-color: #faf14d #f0f0f000 !important;
 }
 
+/*YT*/
 @-moz-document domain("youtube.com") {
 yt-icon.ytd-topbar-logo-renderer,
-yt-icon.ytd-logo {
-fill-opacity: 0;
+yt-icon.ytd-logo {fill-opacity: 0;
 background: url(chrome/yt.png) center center/100% no-repeat !important;
-max-width: 100%;
-max-height: 100px;
+max-width: 100%; max-height: 100px;
 position: relative !important;}
-  
-/*YT*/
-/*seekbar color*/
+
+  /* seekbar */
 .ytp-swatch-background-color { background-color: #fffd80 !important; }
 
 /* notifications badge color now yellow */
@@ -43,17 +41,14 @@ border: 0px solid rgba(0,0,0,0.8) !important;}
 .badge-style-type-live-now-alternate.ytd-badge-supported-renderer {
 background: rgba(92, 198, 223, 0.9) !important;
 color: var(--yt-spec-static-brand-white) !important;}
-  
-/*logo*/
-yt-icon.ytd-topbar-logo-renderer,
-yt-icon.ytd-logo {
-fill-opacity: 0;
-background: url(chrome/yt.png) center center/100% no-repeat !important;
-max-width: 100%;
-max-height: 100px;
-position: relative !important;}
-  
+
+/* watching live indicator now cyan */
+.ytp-live-badge[disabled]::before {background: #00e3fb;}
+
+/*settings button badge in video player color*/
+.ytp-settings-button.ytp-hd-quality-badge::after, .ytp-settings-button.ytp-hdr-quality-badge::after, .ytp-settings-button.ytp-4k-quality-badge::after, .ytp-settings-button.ytp-5k-quality-badge::after, .ytp-settings-button.ytp-8k-quality-badge::after, .ytp-settings-button.ytp-3d-badge-grey::after, .ytp-settings-button.ytp-3d-badge::after {background-color: #313131 !important;}
 } /* <---- dont delete this closes out youtube customization */
+
 
 
 
