@@ -3,20 +3,6 @@ ATTEMPT 1 - STYLING WEBPAGES THROUGH USERCONTENT
 youtube logo, reddit background, PIP button displayed on videos is smaller
 */
 
-@-moz-document domain("youtube.com") {
-yt-icon.ytd-topbar-logo-renderer,
-yt-icon.ytd-logo {
-fill-opacity: 0;
-background: url(chrome/yt.png) center center/100% no-repeat !important;
-max-width: 100%; max-height: 100px;
-position: relative !important;}	
-}
-
-@-moz-document domain("rumble.com") {
-.header-logo {
-content:url(chrome/rumb2.png);}
-}
-
 @-moz-document domain(reddit.com) {
 ._31N0dvxfpsO6Ur5AKx4O5d,
 ._3ozFtOe6WpJEMUtxDOIvtU,
@@ -25,46 +11,49 @@ background-attachment: fixed;
 background-image: url("https://i.imgur.com/JrcxxQ8.gif") !important; /*black space*/
 background-size: cover !important;}
 }
-
                                       /*make PIP button smaller on all videos*/
 .pip-wrapper {
    transform: scale(0.7);}
-
-@-moz-document domain("aniwave.to") {
-
-/*vidplay and my cloud*/
-.jw-slider-horizontal.jw-chapter-slider-time .jw-slider-container .jw-timesegment-progress {
-background-color: #ffe450 !important;}
-.jw-slider-container .jw-slider-skip {
-background: #9535f4 !important;
-opacity: 1 !important;}
-.jw-knob {background-color: #ffe300 !important;}
-.jw-icon-rewind {display:none; !important;}
-.jw-controlbar {display: none !important;}
-
-/*mp4upload*/
-.video-js .vjs-progress-control .vjs-play-progress {
-background-color: #1912DF !important;}
-.vjs-rewind-control {display:none !important;}
-.vjs-forward-control {display:none !important;}
-.video-js .vjs-control-bar { background-color: rgba(0,0,0,0.3); !important;}
-
-/*fix background colors*/
-#w-player #w-servers .tip {
-background: #0e0e0e; !important;}
-#w-info .brating .rating .stars span.full i::before {
-color: #00cfff !important;}
-.bsharing {
-  background: #0e0e0e !important;}
-
-}
-
 /* scroll bar color */
 * {
   scrollbar-width: auto !important;
   scrollbar-color: #faf14d #f0f0f000 !important;
 }
 
+@-moz-document domain("youtube.com") {
+yt-icon.ytd-topbar-logo-renderer,
+yt-icon.ytd-logo {
+fill-opacity: 0;
+background: url(chrome/yt.png) center center/100% no-repeat !important;
+max-width: 100%;
+max-height: 100px;
+position: relative !important;}
+  
+/*YT*/
+/*seekbar color*/
+.ytp-swatch-background-color { background-color: #fffd80 !important; }
+
+/* notifications badge color now yellow */
+.yt-spec-icon-badge-shape--type-notification .yt-spec-icon-badge-shape__badge {
+background-color: #fffd80 !important; color: #2b2b2b !important;}
+.yt-spec-icon-badge-shape--style-overlay .yt-spec-icon-badge-shape__badge {
+border: 0px solid rgba(0,0,0,0.8) !important;}
+
+/* Button that shows video is live under thumbnail is now cyan blue */
+.badge-style-type-live-now-alternate.ytd-badge-supported-renderer {
+background: rgba(92, 198, 223, 0.9) !important;
+color: var(--yt-spec-static-brand-white) !important;}
+  
+/*logo*/
+yt-icon.ytd-topbar-logo-renderer,
+yt-icon.ytd-logo {
+fill-opacity: 0;
+background: url(chrome/yt.png) center center/100% no-repeat !important;
+max-width: 100%;
+max-height: 100px;
+position: relative !important;}
+  
+} /* <---- dont delete this closes out youtube customization */
 
 
 
