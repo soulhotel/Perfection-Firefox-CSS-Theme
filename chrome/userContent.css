@@ -17,7 +17,7 @@ background-size: cover !important;}
 /* scroll bar color */
 * {
   scrollbar-width: auto !important;
-  scrollbar-color: #faf14d #f0f0f000 !important;
+  scrollbar-color: #eeff59 rgba(255,255,255, 0) !important;
 }
 
 /*YT*/
