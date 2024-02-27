@@ -7,7 +7,7 @@ https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/fa327
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 1. You must obviously have sidebery installed, import [ sidebery-data-soulhotel.json ].
 This only imports settings, style, context menu, wont override screenshot history, etc.
@@ -28,16 +28,13 @@ im using this transparent dark space theme [ https://addons.mozilla.org/en-US/fi
 10. flexible spaces ^
 11. back, reload, fwd buttons, other buttons
 12. right click bookmark tool bar (never show) once done
-13. get the extensions for minmaxclose buttons and place them to the far right
+13. get the extensions for minmaxclose button hub and place it to the far right
     
-13b. [ https://addons.mozilla.org/en-US/firefox/user/18029308/) ]
+13b. [ https://addons.mozilla.org/en-US/firefox/addon/min-max-close-hub/ ] or [https://addons.mozilla.org/en-US/firefox/user/18029308/] choose
 
-13c. [ https://addons.mozilla.org/en-US/firefox/addon/close-minimize-and-maximize/ ]
-this one is a bit more minimal, allows you more space
+13c. [first one ^ above is my extension, 3 in 1 button hub to replace the min max close buttons ]
 
-13d. I went ahead and customized the icon for 13c. already, all icons [ chrome/chrome/iconxtra.css ]
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 This was created in about 3 days, with not much prior knowledge of debugging tools,
 with the help of
