@@ -9,9 +9,9 @@ https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/fa327
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-1. You must obviously have sidebery installed, import [ sidebery-data-soulhotel.json ].
+1. You must obviously have sidebery installed,
 This only imports settings, style, context menu, wont override screenshot history, etc.
-If you dont want to import, place text from [ sb-style-edit.txt ] in your sidebery style editor console.
+Place text from [ sb-style-edit.txt ] in your sidebery style editor console (recommended) OR import [ sidebery-data-soulhotel.json ]. (not recommended)
 
 2. Insure you have userchrome toggled on in about:config, you should understand this part
 
@@ -20,19 +20,16 @@ If you dont want to import, place text from [ sb-style-edit.txt ] in your sidebe
  ![#openwithreadfirst](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/aa31f580-f29c-4446-990e-399263849aa3)
 im using this transparent dark space theme [ https://addons.mozilla.org/en-US/firefox/addon/dark-space-full-transparent/ ]
 
-5. sidebery extension goes to the far left
-6. url bar right next to it
-7. ublock origin or reload button goes right next to url bar
-8. flexible spaces
-9. drag your (bookmarks toolbar items) OUT of the bookmark toolbar and place it next to the flexible space
-10. flexible spaces ^
-11. back, reload, fwd buttons, other buttons
-12. right click bookmark tool bar (never show) once done
-13. get the extensions for minmaxclose button hub and place it to the far right
+5. sidebery extension goes to the far left, url bar right next to it, ublock origin or reload button goes right next to url bar
+6. flexible spaces
+7. drag your (bookmarks toolbar items) OUT of the bookmark toolbar and place it next to the flexible space
+8. flexible spaces ^
+9. right click bookmark tool bar (never show) once done
+10. get the extensions for minmaxclose button hub and place it to the far right
     
-13b. [ https://addons.mozilla.org/en-US/firefox/addon/min-max-close-hub/ ] or [https://addons.mozilla.org/en-US/firefox/user/18029308/] choose
+11a. [ https://addons.mozilla.org/en-US/firefox/addon/min-max-close-hub/ ]
 
-13c. [first one ^ above is my extension, 3 in 1 button hub to replace the min max close buttons ]
+11b. [this is my extension, 3 in 1 button hub to replace the min max close buttons ]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
