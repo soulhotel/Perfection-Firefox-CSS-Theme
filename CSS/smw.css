@@ -1,0 +1,58 @@
+#context-selectall
+    { display:none !important; }
+#context-take-screenshot
+    { display:none !important; }
+#context-sep-screenshots
+    { display:none !important; }
+#context-viewsource
+    { display:none !important; }
+
+#context-sendimage
+    { display:none !important; }
+#context-setDesktopBackground
+    { display:none !important; }
+#context-sep-setbackground
+    { display:none !important; }
+
+#context-openlinkinusercontext-menu
+    { display:none !important; }
+
+
+
+/*
+this up above is a removal of certain options
+from the context menu (right click menu)
+
+I recommend Simple Menu Wizard userChrome
+for a full list of options that can be removed.
+
+https://github.com/stonecrusher/simpleMenuWizard
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
