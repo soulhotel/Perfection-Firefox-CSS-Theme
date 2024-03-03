@@ -62,6 +62,7 @@ Some credit:
 Enjoy.
 
 ![preview 1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/8287f76f-c234-49a9-b7cf-84a2b8829a3c)
+![Untitled](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/c0e5dde1-d14f-4a52-b842-c4edda9f365e)
 
 
 
