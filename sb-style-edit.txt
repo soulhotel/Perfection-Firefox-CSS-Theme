@@ -8,8 +8,9 @@ removes annoying audio button from top title logo
 copy ALL of this and paste it into your sidebery editor (AT THE TOP),
 nothing will break even if you leave all of my comments,
 you can even delete your old style editor tweaks if you know what they all do
-*/
 
+IMPORTANT If you want to skip the colors, skip every line that says #root.root
+*/
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 /* In these walls, lies the perfect dream */
