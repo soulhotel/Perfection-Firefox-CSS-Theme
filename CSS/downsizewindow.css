@@ -61,8 +61,6 @@ when resizing of windows is done. gonna try to fix that.
 */
 toolbar:is([overflowing]) > .overflow-button
 {display: none !important;}  
-toolbar:is([overflowing]) > .overflow-button
-{overflows:true !important; removable: true !important;}
 
 /*choose which buttons will always stay*/
 toolbar:is([id="minmaxclose_soulhotel_net-BAP"]),
@@ -74,8 +72,6 @@ box-sizing: border-box !important;
 align-items: center !important;
 display: flex !important;
 flex: 1 !important;
-overflows: visible !important;
-overflows: false !important;
 overflow: visible !important;
 removable: false !important;}
 
