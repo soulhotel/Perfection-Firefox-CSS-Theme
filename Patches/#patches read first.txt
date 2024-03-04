@@ -1,0 +1,7 @@
+the files in this folder will allow the user to opt-out of certain features.
+pick a feature, take the replacement file, and copy and paste it in the origin folder.
+
+- keep back, forward, reload buttons on the nav bar.
+chrome/CSS/downsizewindow.css
+
+-
