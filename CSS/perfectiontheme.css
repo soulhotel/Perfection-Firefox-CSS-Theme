@@ -84,7 +84,7 @@ FYI - ALL rgba()colors below are blacks and whites, swap them too if you want li
 
 /* drop down list popup color - within webpages. */
 #ContentSelectDropdown > menupopup[customoptionstyling="true"]::part(arrowscrollbox) {
-background: black;}
+background: black !important;}
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 /*
