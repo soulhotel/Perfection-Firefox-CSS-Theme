@@ -61,15 +61,11 @@ Some credit:
 
 Enjoy.
 
+# Video Installation
+
+https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/66957332-5a14-4bea-b330-96fddb35e4fd
+
 ![preview 1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/8287f76f-c234-49a9-b7cf-84a2b8829a3c)
 ![Untitled](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/c0e5dde1-d14f-4a52-b842-c4edda9f365e)
-
-
-
-Version 1:
-
-
-
-https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/fa0608dc-e183-44a9-a6b8-da54115c2ea3
 
 
