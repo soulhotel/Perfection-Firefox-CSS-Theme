@@ -16,56 +16,51 @@ Updates:<br>
 ![WHITE BLACK #2A4045 #91DFF0 #FBF268](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/9451c484-434e-42d2-a2eb-02a300cd2545)
 
 # Use the theme
-1. Sidebery, simple copy and paste [ chrome/CSS/sidebery.css ] to your Style Editor. (recommended)<br>
-1b. [ sb-style-edit.txt ] OR import [ sidebery-data-soulhotel.json ]. (not recommended)<br>
-
+1. Make sure you have sidebery first. Then import [ sidebery-import-this.json ] into your sidebery <br>
+![Screenshot_2](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/98376411-89e0-47d6-aeb6-11e956d00c9c)
+<br>
 2. User Chrome ✅? [ toolkit.legacyUserProfileCustomizations.stylesheets ] <br>
-3. organize Four things on the navigation bar, goto customize toolbar<br>
+<br>
+3. organize the Navigation Bar<br>
 
 ![img 3 goto ct](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/a85714a6-93bc-4db8-84fe-dd02f1f88bdb)
 ![img 3 organize](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/8a6648e7-c2b6-4570-8bb9-89d316e4fa8f)
+<br>
 4. [ A ] This is Sidebery [ B ] URL Bar next to Sidebery Button, then UBlock Origin (🔒)<br>
 4b. Whatever button you put on the right of URL Bar will sit inside of it. Put Bookmark toolbar and then at least 1 flexible space next. The more flexible spaces, the smaller the URL Bar 👍<br>
-5. [ C ] This is a (3 in 1) Min Max Close Button Hub. This is my extension.<br>
-5b. [ https://addons.mozilla.org/en-US/firefox/addon/min-max-close-hub/ ]<br>
-5c. Extensions that replace the close button are not forgiving, once you press that ✖️ <br>
+4c. [ C ] This is a (3 in 1) Min Max Close Button Hub. This is my extension.<br>
+4d. [ https://addons.mozilla.org/en-US/firefox/addon/min-max-close-hub/ ]<br>
+4e. Extensions that replace the close button are not forgiving, once you press that ✖️ <br>
 you cant confirm first to close a window, this one is forgiving.<br>
-5d. [ D ] is the overflow menu - dont worry, its only visible when you are customizing toolbar.<br>
-6. Low and behold, this will be your outcome. <br>
+4f. [ D ] is the overflow menu - dont worry, its only visible when you are customizing toolbar.<br>
+5. Low and behold, this will be your outcome. <br>
 
 ![img 6](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/85e453e8-84ad-418f-b883-8bd3933f4c20)
 
-7. Above I have my minmaxclosehub, fullscreen bttn, newwindow bttn, and ublock, excluded from the "automatic cleaning" up of the nav bar.<br>
-7b. Once I hover over the nav bar, or focus on the URL bar, everything shows itself.<br>
+6. I did my best to organize, label, and section off the edits that I made in the files.<br>
+userChrome.css has a directory for what all files do.<BR>
+You can safely remove certain features if you read the files thoroughly.<BR>
+<BR>
+I encourage you to take this theme, gut it, steal it, change certain parts, make it your own.<BR>
+<BR>
+Video Installation below.<BR>
+<BR>
+Enjoy.<BR>
+<BR>
 
-![img 7 show](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/e35b18de-7222-400d-a43d-f216afbf9bb2)
-
-7c. You can adjust the list of buttons to exclude* Its easy to follow just make sure you read the page up and down before you adjust buttons [ chrome/CSS/hide-navbaritems.css ]<br>
-8. I did my best to organize and section off the edits that I made.<br>
-   
-For example, on the NewTab page, I made the buttons less ugly, deleted search bar, and put my chess board picture as a background. Dont like it?
-
-go to [ chrome/WEBSITECSS/newtab-homepage.css ] and delete 3 lines.
-
-You can truly take this theme, gut it, steal certain parts, make it your own, whatevr.
-
-![WHITE BLACK #2A4045 #91DFF0 #FBF268](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/8a77f5e8-ee24-4304-ba55-d823c0857772)
+# Video Installation<br>
 
 
-Some credit:
+https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/66957332-5a14-4bea-b330-96fddb35e4fd
+
+![preview 1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/8287f76f-c234-49a9-b7cf-84a2b8829a3c)
+![Screenshot_3](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/7b92b1da-8d63-4404-bb26-32e7d6b8da18)
+![Untitled](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/c0e5dde1-d14f-4a52-b842-c4edda9f365e)
+
+# Some credit:
 
 1. the couple of redditors that answered my questions on r/FirefoxCSS<br>
 2. also MrOtherGuy https://github.com/MrOtherGuy/firefox-csshacks<br>
 3. also Dhanush https://addons.mozilla.org/en-US/firefox/user/18029308/<br>
 4. also stonecrusher https://github.com/stonecrusher/simpleMenuWizard<br>
-
-Enjoy.
-
-# Video Installation
-
-https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/66957332-5a14-4bea-b330-96fddb35e4fd
-
-![preview 1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/8287f76f-c234-49a9-b7cf-84a2b8829a3c)
-![Untitled](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/c0e5dde1-d14f-4a52-b842-c4edda9f365e)
-
-
+<BR>
