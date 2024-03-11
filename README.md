@@ -5,10 +5,10 @@ https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/0d499
 
 <br>
 Updates:<br>
--Nav bar will automatically declutter it-self depending on hover-state and window size. So much cleaner without sacrificing access to your buttons.<br>
--A true floating find bar, clean fluent-like design.<br>
--☰ Hamburger Menu is now invisible button that sits on top of sidebery header logo. more space on nav bar!<br>
--no need to install color themes, the entire window is themed in perfectiontheme.css, make it your own if you want<br>
+- Nav bar will automatically declutter it-self depending on hover-state and window size. So much cleaner without sacrificing access to your buttons.<br>
+- A true floating find bar, with a clean fluent-like design.<br>
+- ☰ Hamburger Menu is now invisible button that sits around sidebar. more space on nav bar!<br>
+- No need to install color themes, the entire window is themed in perfectiontheme.css, make it your own if you want.<br>
 
 ![Screenshot_1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/355e738c-ce0f-4710-80ec-e95df7a8db47)
 ![Screenshot_2](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/0e42a0b1-275e-4db2-a54c-9f4f817f4dc2)
