@@ -27,9 +27,9 @@
 
 #### ------------------------- Images
 
-![Screenshot_4](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/a702ec23-2de3-4714-96a4-47c48f9737d9)
-![sddb](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/826f216f-e65f-46ca-91e8-f10dd2e81aa5)
-![Screenshot_6](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/096b905a-f9fc-4756-a0fe-d482e2a1fbe8)
+![1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/a702ec23-2de3-4714-96a4-47c48f9737d9)
+![2](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/826f216f-e65f-46ca-91e8-f10dd2e81aa5)
+![3](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/096b905a-f9fc-4756-a0fe-d482e2a1fbe8)
 
 # --------------------- v1.4 ---------------------
 
