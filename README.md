@@ -4,7 +4,6 @@
   
 ![GitHub Release](https://img.shields.io/github/v/release/soulhotel/Perfection-Firefox-CSS-Theme?style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/soulhotel/Perfection-Firefox-CSS-Theme?style=for-the-badge)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/soulhotel/Perfection-Firefox-CSS-Theme/total?style=for-the-badge)
 </div>
 
 ![Screenshot_1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/27d87e10-3837-4469-84b4-24e46fd38de1)
