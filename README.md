@@ -10,7 +10,7 @@
 ![perfection 1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/bc9b3e8e-4559-442a-a324-a6176461d801)
 
 ## Features
-- `NEW` Sleek, rounded corners
+- `NEW` Sleek, rounded corners, disable easily by deleting `CSS/browser-rounded.css'
 - `One line Nav Bar` that auto shows/hides excess items, miniminal look, without losing easy access to buttons.
 - A true `floating find bar`, with a clean fluent-like design.
 - `Autohide the Sidebar`, you can adjust the minimum and maximum width's in `CSS/hidetabs-hidessidebery.css`
