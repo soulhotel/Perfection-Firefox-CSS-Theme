@@ -11,6 +11,7 @@
 
 ## Features
 - `NEW` Sleek, rounded corners, disable easily by deleting `CSS/browser-rounded.css'
+- `NEW` Ive returned the default window controls. No complications, no overthinking, its on the nav bar.
 - `One line Nav Bar` that auto shows/hides excess items, miniminal look, without losing easy access to buttons.
 - A true `floating find bar`, with a clean fluent-like design.
 - `Autohide the Sidebar`, you can adjust the minimum and maximum width's in `CSS/hidetabs-hidessidebery.css`
