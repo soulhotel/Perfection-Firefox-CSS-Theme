@@ -31,10 +31,7 @@
 2. Import `sidebery-import-this.json` into your Sidebery Add On Data
 - ![sidebery](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/4abb0629-a808-490b-afbc-49355f5ec736)
 3. Customize Toolbar, Organize your buttons before you restart.
-  - Make sure the sidebery extension is on the toolbar.
-  - `A` URL BAR to the Far Left
-  - `B` Whatever you place next to the URL BAR will sit inside of it. Courtesy of MrOtherGuy.
-  - `C` (Optional) Take the bookmarks-items out of bookmarks toolbar, put it on the nav bar. Then `D`, flexible spaces
+  - `C` (Optional) Take the bookmarks-items out of bookmarks toolbar, put it on the nav bar.
   - ![CUSTOMIZE TOOLBAR](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/69a27dc8-9685-4b0b-9d99-ab86bef48764)
 4. Restart Firefox.
 
