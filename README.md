@@ -7,23 +7,25 @@
 </div>
 
 ![Screenshot_1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/27d87e10-3837-4469-84b4-24e46fd38de1)
+![perfection 1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/bc9b3e8e-4559-442a-a324-a6176461d801)
 
 ## Features
+- `NEW` Sleek, rounded corners
 - `One line Nav Bar` that auto shows/hides excess items, miniminal look, without losing easy access to buttons.
 - A true `floating find bar`, with a clean fluent-like design.
-- ☰ Menu, 🧩 Extensions Menu, Sidebery Button at the side of sidebar.
 - `Autohide the Sidebar`, you can adjust the minimum and maximum width's in `CSS/hidetabs-hidessidebery.css`
 - No need to install color themes, the entire window and all menus are themed in `CSS/perfectiontheme.css`, make it your own if you want.
-
+- ~~☰ Menu, 🧩 Extensions Menu, Sidebery Button at the side of sidebar.~~
+ 
 ## Requirements
-- Firefox 103+
+- Firefox 60+
 - User Chrome ✅ [Need help?](https://gist.github.com/soulhotel/80c1ac8d41e45b910158a26d31d48c13)
-- Have [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/) ready, other tab add-ons are compatible with auto-show/hide feature `ONLY` if they use the sidebar.
+- Have [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/) ready, other tab add-ons are compatible with auto-show/hide feature
 - The [Theme](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/releases/latest)
-- Replacement for the Window Controls, recommended: My [Min Max Close - Hub](https://addons.mozilla.org/en-US/firefox/addon/min-max-close-hub/)
+- No replacement for window controls needed anymore but (https://addons.mozilla.org/en-US/firefox/addon/min-max-close-hub/)
 
-## Here we go ![Static Badge](https://img.shields.io/badge/Installation-%2391DFF0?style=for-the-badge)
-##### Before you install, make sure you have sideberys extension button on the nav barrrrr!!!
+## Here we go ![GitHub Release](https://img.shields.io/github/v/release/soulhotel/Perfection-Firefox-CSS-Theme?style=for-the-badge)
+##### Video Installation below
 1. Copy and paste the [Theme](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/releases/latest) into your chrome folder.
 - ![Screenshot_2](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/245a5df7-94df-40cc-9608-de87a521822e)
 2. Import `sidebery-import-this.json` into your Sidebery Add On Data
@@ -32,12 +34,13 @@
   - Make sure the sidebery extension is on the toolbar.
   - `A` URL BAR to the Far Left
   - `B` Whatever you place next to the URL BAR will sit inside of it. Courtesy of MrOtherGuy.
-  - `C` Take the bookmarks toolbar items out of the bookmarks toolbar, put it on the nav bar. Then `D`, flexible spaces
+  - `C` (Optional) Take the bookmarks-items out of bookmarks toolbar, put it on the nav bar. Then `D`, flexible spaces
   - ![CUSTOMIZE TOOLBAR](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/69a27dc8-9685-4b0b-9d99-ab86bef48764)
 4. Restart Firefox.
 
 ## Previews
 #### Video Installation belowwwww!!!
+- ![perfection 1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/e583293e-e155-47a8-a153-c159a8a08f71)
 - ![FIRST PREVIEW](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/7d9dc899-f22f-4f52-b129-89b405658ed1)
 - ![Screenshot_3](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/7b92b1da-8d63-4404-bb26-32e7d6b8da18)
 - ![preview 1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/8287f76f-c234-49a9-b7cf-84a2b8829a3c)
