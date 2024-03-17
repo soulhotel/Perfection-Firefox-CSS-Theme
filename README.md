@@ -50,7 +50,7 @@
 
 
 ## Video Installation
-#### Video is OLD from v1.2, all you need to do is chrome folder, and Import `sidebery-import-this.json`.
+#### Video is OLD from v1.2, all you need to do is copy the chrome folder, and Import `sidebery-import-this.json`.
 
 https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/66957332-5a14-4bea-b330-96fddb35e4fd
 
