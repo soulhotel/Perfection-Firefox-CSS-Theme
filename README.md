@@ -21,9 +21,8 @@
 ## Requirements
 - Firefox 60+
 - User Chrome ✅ [Need help?](https://gist.github.com/soulhotel/80c1ac8d41e45b910158a26d31d48c13)
-- Have [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/) ready, other tab add-ons are compatible with auto-show/hide feature
+- (Other tabs add ons work too) [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/)
 - The [Theme](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/releases/latest)
-- No replacement for window controls needed anymore but (https://addons.mozilla.org/en-US/firefox/addon/min-max-close-hub/)
 
 ## Here we go ![GitHub Release](https://img.shields.io/github/v/release/soulhotel/Perfection-Firefox-CSS-Theme?style=for-the-badge)
 ##### Video Installation below
