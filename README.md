@@ -21,7 +21,7 @@
 ## Requirements
 - Firefox 60+
 - User Chrome ✅ [Need help?](https://gist.github.com/soulhotel/80c1ac8d41e45b910158a26d31d48c13)
-- (Other tabs add ons work too) [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/)
+- [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/) (Other tabs add ons work too)
 - The [Theme](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/releases/latest)
 
 ## Here we go ![GitHub Release](https://img.shields.io/github/v/release/soulhotel/Perfection-Firefox-CSS-Theme?style=for-the-badge)
