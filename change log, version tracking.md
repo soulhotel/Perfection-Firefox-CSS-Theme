@@ -27,7 +27,8 @@
 - [ CSS/minmaxclose.css ] - REMOVED
 - [ CSS/urlbar.css ] - REMOVED
 - [ menu buttons on side ] - REMOVED
-- 
+- back, forward, reload buttons are added back to default view
+
 ---
 
 ---
