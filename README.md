@@ -6,8 +6,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/soulhotel/Perfection-Firefox-CSS-Theme?style=for-the-badge)
 </div>
 
-![Screenshot_1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/27d87e10-3837-4469-84b4-24e46fd38de1)
-![perfection 1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/bc9b3e8e-4559-442a-a324-a6176461d801)
+![Screenshot_1](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme/assets/155501797/ee208b1a-5193-42cd-9f70-e4674ce5b401)
 
 ## Features
 - `NEW` Sleek, rounded corners, disable easily by deleting `CSS/browser-rounded.css'
