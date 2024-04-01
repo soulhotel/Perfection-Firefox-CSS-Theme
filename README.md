@@ -3,6 +3,7 @@
 <div align="right">  
   
 ![GitHub Release](https://img.shields.io/github/v/release/soulhotel/Perfection-Firefox-CSS-Theme?style=for-the-badge)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/soulhotel/perfection-firefox-css-theme/total?style=for-the-badge&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/soulhotel/Perfection-Firefox-CSS-Theme?style=for-the-badge)
 </div>
 
