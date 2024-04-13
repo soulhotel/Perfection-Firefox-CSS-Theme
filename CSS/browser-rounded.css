@@ -1,0 +1,12 @@
+#tabbrowser-tabpanels {
+  browser[type="content"] {
+    border-radius: 10px !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;  }
+}
+
+
+body {background: var(--toolbar-bgcolor) !important;}
+
+#tabbrowser-tabpanels { background: var(--toolbar-bgcolor) !important; }

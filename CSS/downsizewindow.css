@@ -1,0 +1,70 @@
+/*
+
+the following will hide any nav bar button item you have listed.
+ive hidden the back, fwd, reload buttons
+
+(optional) extension button, ublock, are inactive but listed below.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+toolbarbutton:is(
+[id="back-button"],[id="forward-button"]
+),
+toolbaritem:is([id="stop-reload-button"])
+
+{order: -2 !important; padding: 0 !important; margin: 0 !important; padding-inline: 0 !important;
+display: none !important;}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+the following will temporarily take nav bar items 
+off the the screen when browser size = little over half of a 1080p
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+@media (max-width:890px) {
+toolbarbutton:is(
+
+[id="back-button"],[id="forward-button"],[id="reload-button"],
+[id="_b9db16a4-6edc-47ec-a1f4-b86292ed211d_-BAP"],
+[id="unified-extensions-button"]
+
+/* <- remove and add ID's if you want to add to list
+,[data-extensionid="uBlock0@raymondhill.net"],
+[id=""],
+[id=""]
+remove with the one above -> */
+
+),
+
+/* Hide bookmarks except for the following, get your bookmark names, mine were just emoji's */
+
+toolbarbutton[class="bookmark-item"]:not([label="📺"], [label="⚙️"], [label="🌐"], [label="✉"])
+
+{display: none !important;}
+} /*<--- close out media sizing attribute */
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+portrait territory
+
+@media (max-width:600px) { 
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+/* the overflow button likes to try and override buttons
+when resizing of windows is done. gonna try to fix that.
+*/
+
+/*choose which buttons will always stay*/
+toolbar:is([data-extensionid="minmaxclose@soulhotel.net"]),
+toolbar:is([data-extensionid="browserhub@soulhotel.net"])
+{
+display: flex !important;
+flex: 1 !important;
+overflow: visible !important;}
+
+
+#browserhub_soulhotel_net-browser-action {overflow: visible !important;}
+#browserhub_soulhotel_net-BAP {overflow: visible !important;}
+#minmaxclose_soulhotel_net-BAP {overflow: visible !important;}
+#minmaxclose_soulhotel_net-browser-action {overflow: visible !important;}
+
+

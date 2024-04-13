@@ -1,0 +1,73 @@
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SOME ICON REPLACEMENTS
+made icons myself very minimal, made to blend in with default release buttons
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#fullscreen-button {list-style-image: url("fullscreen.png") !important;}
+
+#nav-bar-overflow-button {list-style-image: url("menu.png") !important;}
+
+#new-window-button {list-style-image: url("newwindow.png") !important;}
+
+#unified-extensions-button {list-style-image: url("extensions.png") !important;}
+
+/*this is the bookmark toolbars folder icon*/
+.bookmark-item[container=true] {list-style-image: url("bmarrow.png") !important;}
+
+/*this is the bookmark button in URL Bar*/
+#star-button[starred] {fill-opacity: 1 !important; fill: #FBF268 !important;}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+MINIMIZE
+CLOSE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*
+this section is nulled, ive made minmaxclose buttons that blend into the theme very well.
+https://addons.mozilla.org/en-US/firefox/addon/min-max-close-hub/
+*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+EXTENSIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*SIDEBERY*/
+#_3c078156-979c-498b-8990-85f7987dd929_-BAP-browser-action {
+list-style-image: url("extra.png") !important;} 
+
+/*SIDEBERY WORKING*/
+#_3c078156-979c-498b-8990-85f7987dd929_-BAP image{
+list-style-image: url("sb.png") !important;}
+
+#ublock0_raymondhill_net-BAP image{
+list-style-image: url("ubon.png") !important;}
+
+#ublock0_raymondhill_net-BAP[tooltiptext="uBlock Origin (off)"] image{
+list-style-image: url("uboff.png") !important;}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+NOTIFICATION BADGE'S COLOR - THE BADGE THAT POPS UP ON EXTENSIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.toolbarbutton-badge {
+background-color: rgba(0,0,0,0.2) !important;
+box-shadow: 0 !important;
+color: white !important;
+text-shadow: #FDFFFF 0.5px 0 15px!important;}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+DOWNLOAD BUTTON ICON AND COMPLETED STATUS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+#downloads-button image{
+list-style-image: url(downloads.png) !important;
+width:16px !important; height:16px !important;}
+
+#downloads-button[attention="success"] image{
+list-style-image: url(downloadssuccess.gif) !important;
+width:16px !important; height:16px !important; opacity: 1 !important;}
+
+#downloads-button[progress] image{
+list-style-image: url(downloadsprogress.gif) !important;
+width:16px !important; height:16px !important;}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+DownloadHelper
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#_b9db16a4-6edc-47ec-a1f4-b86292ed211d_-BAP image{
+list-style-image: url("dhon.png") !important;}

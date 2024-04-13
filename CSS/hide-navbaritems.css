@@ -1,0 +1,93 @@
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/* i wanted to hide every button on the nav bar, unless the nav bar is hovered.. simple right?..
+
+first, to exclude key buttons. min, max, close, new window, fullscreen, ☰ Menu button, ublock, sidebery.
+this is a list of what will NOT be affected. url bar is unaffected. feel free to modify. */
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+toolbarbutton:not([data-extensionid="minmaxclose@soulhotel.net"], /*<--- my minmaxclose hub*/
+[data-extensionid="browserhub@soulhotel.net"], /*<--- my browser hub --- very recommended*/
+
+[id="unified-extensions-button"], [id="back-button"], [id="forward-button"], [id="reload-button"],
+[class="titlebar-button titlebar-min"], [class="titlebar-button titlebar-max"], 
+[class="titlebar-button titlebar-restore"], [class="titlebar-button titlebar-close"], 
+[id="PanelUI-menu-button"], [data-extensionid="uBlock0@raymondhill.net"], [id="urlbar-zoom-button"], 
+[data-extensionid="{3c078156-979c-498b-8990-85f7987dd929}"],  /*<- extension id is for sidebery*/
+[class="findbar-closebutton tabbable close-icon"], [data-l10n-id="findbar-next"], [data-l10n-id="findbar-previous"]
+), /* <-do not remove this if you value your life */
+
+toolbaritem:not([id="stop-reload-button"]),
+#PlacesToolbarItems /* <- this includes bookmarks to the list */
+
+{ opacity: 0.01 !important; -moz-transition: visibility 1s, opacity 1s ease !important;} /*now hide*/
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+/* now to make them show when nav bar is hovered */
+
+#navigator-toolbox:hover toolbarbutton, #navigator-toolbox:hover #PlacesToolbarItems,
+
+/* to make them ALWAYS SHOW if customize toolbar page is open, you can see and move them 
+around without dealing with buttons fading in and out of view */
+
+toolbarpaletteitem:is([place="palette"], [touchdownstartsdrag="true"], [touchdownstartsdrag="false"])
+toolbarbutton:not([data-extensionid="minmaxclose@soulhotel.net"], /*<- minmaxclose hub*/
+[data-extensionid="browserhub@soulhotel.net"], /*<- my browser hub -very recommended*/
+[id="unified-extensions-button"], [id="back-button"], [id="forward-button"], [id="reload-button"],
+[class="titlebar-button titlebar-min"], [class="titlebar-button titlebar-max"], 
+[class="titlebar-button titlebar-restore"], [class="titlebar-button titlebar-close"], 
+[id="PanelUI-menu-button"], [data-extensionid="uBlock0@raymondhill.net"], [id="urlbar-zoom-button"], 
+[data-extensionid="{3c078156-979c-498b-8990-85f7987dd929}"], /*<- extension id is for sidebery*/
+[class="findbar-closebutton tabbable close-icon"], [data-l10n-id="findbar-next"], [data-l10n-id="findbar-previous"]
+), /* <-do not remove this */
+toolbaritem:not([id="stop-reload-button"])
+
+{opacity: 1 !important;} /*show*/
+
+/* prevent ALL submenus' buttons from being effected by above */
+
+#unified-extensions-panel[panelopen="true"] toolbarbutton {opacity: 1 !important;}
+#protections-popup[panelopen="true"] toolbarbutton {opacity: 1 !important;}
+#identity-popup[panelopen="true"]  toolbarbutton {opacity: 1 !important;}
+#appMenu-popup[panelopen="true"]  toolbarbutton {opacity: 1 !important;}
+#downloads-button-autohide-panel[panelopen="true"]  toolbarbutton {opacity: 1 !important;}
+#widget-overflow[panelopen="true"]  toolbarbutton {opacity: 1 !important;}
+#permission-popup[panelopen="true"]  toolbarbutton {opacity: 1 !important;}
+#downloadsPanel[panelopen="true"]  toolbarbutton {opacity: 1 !important;}
+#webextension-remote-preload-panel[panelopen="true"]  toolbarbutton {opacity: 1 !important;}
+panel[panelopen="true"] toolbarbutton {opacity: 1 !important;}
+
+/* ^ #panel at the end is for future proofing */
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+/* so, if youre experienced, you may be wondering why i didnt just (#navigator-toolbox toolbarbutton) to single out the nav buttons instead of making an extreme list. I was wondering the same when i tried it for 5 hours. try it, you'll see what breaks. its better this way, others can include and exclude whatever buttons they want and turn it into their own thing.
+
+now, a useful list of every default release button* available for use on the customize toolbar page, if you cant find a button, like [new-window-button], its already included in the above list.
+
+home-button  <--  example: [id="home-button"]
+history-panelmenu
+save-page-button
+print-button
+find-button
+open-file-button
+sidebar-button
+email-link-button
+logins-button
+sync-button
+screenshot-button
+preferences-button
+privatebrowsing-button
+developer-button
+import-button
+bookmarks-menu-button
+home-button
+library-button
+panic-button  <--  forget history button, lol
+fxa-toolbar-menu-button  <--  firefox account button
+firefox-view-button
+[data-extensionid ="minmaxclose@soulhotel.net"]  <--  this is a (3 in 1) min max close button hub, my extension
+[data-extensionid="browserhub@soulhotel.net"], /*<- my browser hub - very recommended*/
+*/
+
+

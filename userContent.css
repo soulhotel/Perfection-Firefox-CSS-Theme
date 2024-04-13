@@ -1,0 +1,9 @@
+@import url(WEBSITECSS/scrollbars-and-pip.css);
+@import url(WEBSITECSS/stylewebsites.css);
+@import url(WEBSITECSS/newtab-homepage.css);
+
+/*
+scrollbars-and-pip - - - scroll bar is now a thin yellow line, with no ugly background
+stylewebsites - - - ive styled youtube, reddit, etc, remove the sections if you dont like
+newtab-homepage - - - the new tab page, background, fixed rounded corners, transparent border
+*/

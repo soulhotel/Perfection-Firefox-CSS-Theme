@@ -1,0 +1,81 @@
+
+
+
+:root, body, * {  
+  --uc-panel-background: rgba(0, 0, 0, 0.97);
+  --uc-dark: #000;
+  --uc-light: #fff;
+  --uc-light-dark: #fff;
+  --uc-dark-light: #000000;
+  --uc-text: rgb(255, 255, 255);
+  --uc-panel-border: rgba(25, 25, 25, 1);
+  --uc-panel-border-ii: rgba(45, 45, 45, 0.5);
+  --arrowpanel-background: black !important;
+  --arrowpanel-border-color: rgba(45, 45, 45, 0.5) !important;
+  --arrowpanel-color: var(--uc-text) !important;
+  --panel-background: black !important;
+  --panel-color: white !important;
+  --panel-item-hover-bgcolor: #2A4045 !important;
+  --panel-banner-item-hover-bgcolor: #2A4045 !important;
+  --short-notification-background: var(--uc-ultima-accent-ii) !important;
+  --panel-border-color: var(--uc-panel-border) !important;
+  --content-select-background-image: none !important;
+}
+
+.panel-subview-body
+  {background: rgba(0, 0, 0, 0.97) !important;}
+
+.menupopup-arrowscrollbox
+  {background-color: rgba(28, 28, 31, 0.95);}
+
+#ContentSelectDropdown > menupopup[customoptionstyling="true"]::part(arrowscrollbox){
+  --panel-color: white !important; --panel-background: black;
+}
+
+#ContentSelectDropdownPopup .menupopup-arrowscrollbox { &::part(content) {
+  --panel-color: white !important; --panel-background: black;
+}}
+
+#ContentSelectDropdownPopup menupopup, #ContentSelectDropdownPopup panel { &::part(content) {
+  --panel-color: white !important; --panel-background: black;
+}}
+
+menupopup, panel {
+  color-scheme: light dark;
+  --panel-background: black !important;
+  --panel-color: white !important;
+  --panel-border-radius: 10px !important;
+  --panel-border-color: var(--uc-panel-border-ii) !important;
+  --panel-shadow: 0 0 var(--panel-shadow-margin) hsla(0,0%,0%cc,.2); 
+}
+menupopup, panel {
+  &::part(content) {
+    --panel-background: black !important;
+    --panel-color: white !important;
+    background: rgba(0, 0, 0, 0.97) !important;
+    color: white !important;
+    border-radius: var(--uc-all-border-radius) !important;
+    border: 0.5px solid var(--uc-panel-border) !important;
+    font-family: Segoe UI;
+  }
+}
+menuitem:hover{
+  background-color: #2A4045 !important;
+  color: white !important;
+ }
+
+menu:where([_moz-menuactive="true"]:not([disabled="true"])),
+menuitem:where([_moz-menuactive="true"]:not([disabled="true"])){
+  background-color: #2A4045 !important;
+  color: white !important;
+}
+
+:root[dialogroot] {--in-content-page-background: rgba(0, 0, 0, 0.97) !important;}
+
+:root[dialogroot] {
+  --in-content-page-background: rgba(0, 0, 0, 0.97) !important;
+  color: white  !important;
+}
+
+
+

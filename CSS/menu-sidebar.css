@@ -1,0 +1,39 @@
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Repositioning navigation buttons that are used often.
+
+The ☰ Panel Menu (browser hamburger menu)
+🧩 Extensions Menu button (show all extensions)
+Sidebery Extension (to open close sidebar)
+
+all sit at the bottom left of sidebar
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*button order congruent with below:/*
+
+/*sidebery*/
+#_3c078156-979c-498b-8990-85f7987dd929_-browser-action {
+display: block !important; position: fixed !important;
+bottom: 9.2em !important; left: 4px !important;
+background: rgba(1,1,1,0.9) !important; border-radius: 17% !important;
+padding-inline-start:0px !important;
+z-index: 2 !important;
+}
+/*🧩*/
+#unified-extensions-button {
+display: block !important; position: fixed !important;
+bottom: 6.2em !important; left: 0.5em !important;  
+background: rgba(1,1,1,0.9) !important; border-radius: 17% !important;
+padding-inline-start: 0px !important; padding: 0 !important;
+z-index: 2 !important;
+}
+/*☰*/
+#PanelUI-button {
+order: -2 !important;
+display: block !important; position: fixed !important;
+bottom: 3.4em !important; left: 0.5em !important;
+background: rgba(1,1,1,0.9) !important; border-radius: 17% !important;
+padding-inline-start: 0px !important; padding: 0 !important;
+z-index: 2 !important;
+}
+#PanelUI-menu-button {padding-inline-end: 0 !important; padding:0 !important;}
+

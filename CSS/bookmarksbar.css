@@ -1,0 +1,20 @@
+for userChrome
+bookmarksbar
+
+/* --------------------------------------------------------------- */
+
+/* center bookmarks bar */
+
+#PlacesToolbar, #PlacesToolbarItems { justify-content: center; }
+
+/* so you can see your bookmarks location when customizing */
+
+#PersonalToolbar:is([customizing="true"]) #personal-bookmarks {margin-left: 40vw !important;}
+
+/* smaller bookmarks bar */
+
+#PersonalToolbar {
+  max-height: 22px !important; /* 4em works also */
+  padding-bottom: 2px !important;
+}
+

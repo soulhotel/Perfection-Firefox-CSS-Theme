@@ -1,0 +1,116 @@
+/*
+theming the main window, popups, menus, panels, thoroughly.
+
+I did not set this up to be a light mode theme, BUT everything you need is here.
+(ctrl+f) change all the blacks to whites, whites to blacks, remove the background gif from the nav bar, and find bar, and url bar, lucky for you all of that is near the top, then you've created a light mode theme. You can adjust everything here to create your own firefox theme without depending on the Add On Store.
+
+🔵 #91DFF0 🟡 #FBF268 ⚫ BLACK 🤍 WHITE 🔷 #2A4045
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+/* nav-bar, urlbar, findbar, tooltip, customization-container
+these are the most unique to the theme so feel free to modify and experiment */
+
+body {background: black !important;}
+
+#nav-bar {transition: var(--ext-theme-background-transition) !important;
+background-image: url(background.gif) !important;
+background-repeat: no-repeat, no-repeat !important;background-position: 115% 100% !important;}
+
+#urlbar:is([focused="true"], [open]) > #urlbar-background 
+{background-color: rgba(0, 0, 0, 0.95) !important;/*background-image: url(backgroundfiller.gif) !important;*/}
+/*#urlbar[breakout][breakout-extend][open] {background-image: url(backgroundfiller.gif) !important;}*/
+
+findbar {
+color: var(--toolbar-color) !important; color-scheme: var(--toolbar-color-scheme) !important;
+background-image: url(background.gif) !important; border-top: 0px !important;
+background-repeat: no-repeat, no-repeat !important;background-position: 100% 100% !important;}
+
+tooltip {background-color: #0e0e0f !important;color: white !important;border-color: #333333 !important;}
+
+/*customize toolbar page color*/
+#customization-container {background-color: var(--arrowpanel-background) !important;}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+currently
+blacks are backgrounds
+whites are text
+#2A4045 is a unique blue that should work regardless of light or dark theme
+#91DFF0  the cyan blue accent
+#FBF268 the pastel yellow accent
+FYI - ALL rgba()colors below are blacks and whites, swap them too if you want light theme.
+*/
+
+:root {
+--toolbox-non-lwt-bgcolor-inactive: black !important;
+--toolbar-bgcolor: black !important;
+--toolbar-color: white !important;
+--toolbar-color-scheme: black !important;
+--lwt-header-image: url("background.gif") !important;
+--toolbar-color: rgba(255, 255, 255, 0.8) !important;
+--chrome-content-separator-color: 1px solid black !important; /*border line under nav bar*/
+--toolbarbutton-icon-fill: white !important; /*  icons default fill color */
+--lwt-toolbarbutton-icon-fill-attention: #FBF268 !important; /* example: current page is bookmarked button fill color*/
+--toolbar-field-color: #91DFF0 !important; /*url bar text*/
+--toolbar-field-background-color: black !important;
+--toolbar-field-border-color: rgba(0, 0, 0, 0) !important;
+--toolbar-field-focus-border-color: #91DFF0 !important;
+--toolbar-field-focus-background-color: black !important;
+--toolbar-field-focus-color: white !important;
+--lwt-toolbar-field-highlight: rgba(20, 20, 20, 0.7) !important;
+--lwt-toolbar-field-highlight-text: white !important;
+--button-hover-bgcolor: rgb(20, 20, 20) !important; /*nav bar buttons*/
+--button-active-bgcolor: rgb(20, 20, 20) !important;
+--button-primary-bgcolor: #FBF268 !important; /*popuppanel buttons*/
+--button-primary-hover-bgcolor: #F2D84E !important;
+--button-primary-active-bgcolor: #91DFF0 !important;
+--button-primary-color: #404040 !important;
+--input-bgcolor: #2A4045 !important;
+--arrowpanel-background: rgb(10, 10, 10) !important; /*popoutpanel*/
+--arrowpanel-color: white !important;
+--arrowpanel-border-color: rgb(15, 15, 15) !important;
+--autocomplete-popup-highlight-background: rgb(32, 32, 32) !important;
+--sidebar-background-color: rgb(0, 0, 0) !important;
+--sidebar-text-color: rgba(255, 255, 255, 0.8) !important;
+--sidebar-border-color: rgb(10, 10, 10) !important;
+}
+/*history, bookmarks, etc pop up panels styled*/
+#SanitizeDialog {--in-content-page-background: #101010 !important;}
+#places, #placesView, #placesToolbar {
+--organizer-pane-background: rgb(17, 17, 17) !important;
+--organizer-content-background: rgb(17, 17, 17) !important;
+--organizer-hover-background: rgb(40, 40, 40) !important;
+--organizer-selected-background: rgb(40, 40, 40) !important;
+--organizer-toolbar-field-background: rgb(17, 17, 17) !important;
+--organizer-toolbar-field-background-focused: rgb(17, 17, 17) !important;
+--organizer-toolbar-background: rgb(17, 17, 17) !important;
+}
+
+/* drop down list popup color - within webpages. */
+#ContentSelectDropdown > menupopup[customoptionstyling="true"]::part(arrowscrollbox) {
+background: black; color: white !important;}
+
+/*fix for dropdown menu text color*/
+menupopup[class="in-menulist"] * {background: black; background-color:black; color: white !important;}
+
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*
+a list of all files that help complete the theme.
+The colorization of PIP, context menu, scroll bars are in the related file below.
+
+CSS/
+PIP.css                   --->  styles the picture in picture video player
+privatemode_indicator.css --->  prevents private mode banner from vandalizing "no titlebar" themes)
+navigation-sidebar.css    --->  ☰ menu bttn, 🧩 extension menu, sidebery extension
+hide-navbaritems.css      --->  keeps the nav bar clean and free of clutter -at a glance- while keeping go-to buttons still accessible
+contextmenucolor.css      --->  right click / context menu styled
+
+WEBSITECSS/
+scrollbars-and-pip.css    --->   styled scrollbars, makes pip button small	
+
+*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+/* Refer to CSS/sidebery.css to import sidebery color and element fixes. */

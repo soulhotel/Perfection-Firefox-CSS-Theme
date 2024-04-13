@@ -1,0 +1,21 @@
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+I took the ☰ Menu Button, and did this.
+
+The ☰ Panel Menu is now an invisible button that sits over
+the sidebery/sidebar logo. Super Simple. Clears space up.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+#PanelUI-button {
+    order: -2 !important;
+
+}
+
+#PanelUI-button {
+display: block !important; position: fixed !important;
+opacity: 0 !important; z-index: 2 !important; left: 0 !important;
+top: 3.4em !important;} /* adjust 3.4 to position over sidebery button */
+
+/*for full screen optimization just display none it,
+i could move it up in height but then it breaks the immersion of full screen mode.*/
+
+#main-window[sizemode="fullscreen"] #PanelUI-button{ display:none !important; }

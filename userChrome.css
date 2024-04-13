@@ -1,0 +1,57 @@
+@import url(CSS/perfectiontheme.css);
+@import url(CSS/hidetabs-hidessidebery.css);
+@import url(CSS/everythingicons.css);
+@import url(CSS/privatemode_indicator_as_menu_button.css);
+@import url(CSS/PIP.css);
+@import url(CSS/contextmenucolor.css);
+@import url(CSS/smw.css); 
+@import url(CSS/hide-navbaritems.css);
+@import url(CSS/downsizewindow2.css); 
+@import url(CSS/findbar.css); 
+@import url(CSS/sidebery.css);
+@import url(CSS/urlbar-button-inside.css);
+@import url(CSS/urlbar.css);
+/*@import url(CSS/browser-rounded.css);*/
+/*@import url(CSS/bookmarksbar.css);*/
+@import url(CSS/navbar-buttons.css);
+@import url(CSS/return-titlebar-buttons.css);
+
+/*
+@import url(CSS/menu-button.css);
+@import url(CSS/menu-sidebar.css);
+*/
+
+/* File descriptions
+
+perfectiontheme - - - centered bookmarks bar, and made it a little smaller
+
+bookmarksbar - - - ☰ menu bttn, 🧩 extension menu, sidebery extension, sit at the bottom of sidebar
+
+return-titlebar-buttons - - - return default title bar buttons, no extensions needed
+
+hidetabs-hidessidebery - - - hide tabs toolbar, autohide sidebery unless hovered.
+
+minmaxclose - - - removes min max close button container, therefore removing the buttons
+
+everythingicons - - - made different icons to fit theme, full screen, bookmark folder icon,
+new window, overflow, extensions, ublock, sidebery, download button
+
+privatemode_indicator_as_menu_button - - - remove the ugly private mode banner that sits on the
+nav bar
+
+PIP - - - player in player, the always on top video player has been lightly colored to fit the theme
+
+contextmenucolor - - - context (right click) menu colorized to fit the theme, darker, no borders.
+
+smw - - - context (right click) menu removed excessive items
+
+hide-navbaritems - - - cleans the nav bar, autohide items unless hovered
+
+downsizewindow - - - clean the nav bar when window is certain size, i removed back,fwd,reload buttons in here
+
+findbar - - - visual update, floating fluent-like find bar, and resizing edits
+
+urlbar-button-inside - - - space for button that sits inside url bar
+*/
+
+
