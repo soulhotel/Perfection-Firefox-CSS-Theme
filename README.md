@@ -1,3 +1,6 @@
+>[!WARNING]
+> Outdated as of Firefox 131. However the Perfection-FCSS look-and-feel lives on through [FF Ultima](https://github.com/soulhotel/FF-ULTIMA).
+
 # <p align="center"> The Perfection Theme... </p>
 <p align="center">just got Perfected!</p>
 <div align="right">  
